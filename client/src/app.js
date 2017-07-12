@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Container from './containers/Container.jsx'
 
 window.addEventListener('load', function () {
   ReactDOM.render(
-    <h1>App Started</h1>,
+    <Container/>,
     document.getElementById('app')
   );
 });
