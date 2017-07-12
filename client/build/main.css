@@ -1,0 +1,20 @@
+body{
+  background: #C3C2C2;
+  width: 80%;
+}
+
+#square {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  flex-basis: 33%;
+  background: #5EC2B1;
+  width: 90px;
+}
+#squares {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 77px;
+  text-align: center;
+
+}
